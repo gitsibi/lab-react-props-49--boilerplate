@@ -1,0 +1,23 @@
+ .gallery-container {
+  text-align: center;
+}
+
+.gallery-container h1{
+  font-size: 24px;
+  padding-bottom:30px ;
+}
+
+.image-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.image-container {
+  width: 100%;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
